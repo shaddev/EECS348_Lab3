@@ -113,12 +113,17 @@ void sort_sales(float sales[]){
 }
 
 int main(){
+    char file_name[50];
+
+    printf("Enter input file name: ");
+    scanf("%s", file_name);
+
     char sales_file[12][20];
     float sales[12];
 
     FILE *f;
 
-    f = fopen("sales.txt", "r");
+    f = fopen(file_name, "r");
     char ch;
     int i = 0, j = 0;
     do{

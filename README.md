@@ -6,4 +6,5 @@ Program 1
 
 Program 2
 
-![CProgram 2](https://user-images.githubusercontent.com/65916707/218350668-5c8f5537-58ac-428d-a464-e49ecffc8178.png)
+![CProgram 2](https://user-images.githubusercontent.com/65916707/218353557-4deac2f2-c5d2-468c-a822-99f92b089246.png)
+

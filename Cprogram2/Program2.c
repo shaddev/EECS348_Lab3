@@ -43,7 +43,8 @@ int main(){
         	printf("possible combinations of scoring plays:\n");
             pos(points, 0, given_arr, out_arr, 5);
         }
-    } while(points > 1);
+    }
+    while(points > 1);
 
     printf("Exiting...\n");
 

@@ -30,6 +30,8 @@ void pos(int points, int index, int given_arr[], int out_arr[], int size){
 
 int main(){
 
+	setbuf(stdout, NULL);
+
     int points, out_arr[5];
     int given_arr[] = {8, 7, 6, 3, 2};
 

@@ -37,8 +37,10 @@ int main(){
 
     do{
         printf("Enter 0 or 1 to STOP\n");
+        printf("Enter the NFL Score: ");
         scanf("%d", &points);
         if(points > 1){
+        	printf("possible combinations of scoring plays:\n");
             pos(points, 0, given_arr, out_arr, 5);
         }
     } while(points > 1);

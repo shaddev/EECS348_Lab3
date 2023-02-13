@@ -113,6 +113,8 @@ void sort_sales(float sales[]){
 }
 
 int main(){
+	setbuf(stdout, NULL);
+
     char file_name[50];
 
     printf("Enter input file name: ");
